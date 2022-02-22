@@ -5,7 +5,6 @@ public class Anagram {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int count=0;
 		Scanner s=new Scanner(System.in);
 		System.out.println("enter string1");
 		String str1=s.nextLine();

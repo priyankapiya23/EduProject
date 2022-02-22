@@ -8,15 +8,14 @@ public class Replace_Occurance_Name {
 				String[] cities= {"Delhi","chandigrah","patna","Bihar"};
 				System.out.println("Input your String");
 				String str=br.readLine();
-				char[] ch =str.toCharArray();
-				for(int i=0;i<=ch.length;i++)
+				for(int i=0;i<=str.length();i++)
 				{
 					for(int j=0;j<cities.length;j++)
 					{
 					
-						if(cities.equals(str))
+						if(cities[j]==cities[i])
 						{
-							String s=str.replace(ch[i], '*');
+							String s=str.replace(str[i],'*');
 							System.out.println(s);
 						}
 					}
